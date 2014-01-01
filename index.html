@@ -30,125 +30,134 @@
       /* http://www.css3maker.com/ */
     }
     </style>
+    <!--
+      https://github.com/danleech/simpleicons
+      http://schema.org/
+      https://www.google.com/webmasters/tools/richsnippets
+      https://support.google.com/webmasters/answer/176035
+      http://net.tutsplus.com/tutorials/html-css-techniques/how-to-create-an-html5-microdata-powered-resume/
+    -->
   </head>
   <body>
-      <div class="container">
 
-        <div class="row hidden-xs">&nbsp</div>
+    <div class="container" itemscope itemtype="http://schema.org/Person" >
 
-        <div class="row">
-          <div class="col-sm-3">
-            <p><img src="images/photo.jpg" width="200px" class="img-responsive picture hidden-xs"></p>
-          </div>
-          <div class="col-sm-9">
-            <div class="page-header"><h1>Matias Schertel<small class="hidden-xs">Ninja Developer & Design Thinking Mastermind</small></h1></div>
-            <div class="row">
-              <div class="col-sm-4">
-                <p>
-                  <a href="mailto:matias@schertel.co">matias@schertel.co</a><br/>
-                  <a href="tel:+555191729075">+55-51-91729075</a>
-                </p>
-              </div>
-              <div class="col-sm-8">
-                <p class="text-right">
-                  <!-- https://github.com/danleech/simpleicons -->
-                  <a href="http://www.appstartup.me/"><img style="background:url('images/sprites-social.png') 0px 0px no-repeat;background-color:rgb(200,20,60);" alt="appstartup" src="data:image/gif;base64,R0lGODlhAQABAIAAAP//////zCH5BAEHAAAALAAAAAABAAEAAAICRAEAOw==" width="32" height="32" /></a>
-                  <a href="http://www.facebook.com/schertel"><img style="background:url('images/sprites-social.png') -32px 0px no-repeat;background-color:rgb(59,89,152);" alt="facebook" src="data:image/gif;base64,R0lGODlhAQABAIAAAP//////zCH5BAEHAAAALAAAAAABAAEAAAICRAEAOw==" width="32" height="32" /></a>
-                  <a href="http://github.com/flatlining"><img style="background:url('images/sprites-social.png') -64px 0px no-repeat;background-color:rgb(65,131,196);" alt="github" src="data:image/gif;base64,R0lGODlhAQABAIAAAP//////zCH5BAEHAAAALAAAAAABAAEAAAICRAEAOw==" width="32" height="32" /></a>
-                  <a href="http://plus.google.com/+MatiasSchertel"><img style="background:url('images/sprites-social.png') -96px 0px no-repeat;background-color:rgb(209,72,54);" alt="google plus" src="data:image/gif;base64,R0lGODlhAQABAIAAAP//////zCH5BAEHAAAALAAAAAABAAEAAAICRAEAOw==" width="32" height="32" /></a>
-                  <a href="http://linkedin.com/in/mschertel"><img style="background:url('images/sprites-social.png') -128px 0px no-repeat;background-color:rgb(0,127,177);" alt="linkedin" src="data:image/gif;base64,R0lGODlhAQABAIAAAP//////zCH5BAEHAAAALAAAAAABAAEAAAICRAEAOw==" width="32" height="32" /></a>
-                  <a href="http://www.reddit.com/u/flatlin3"><img style="background:url('images/sprites-social.png') 0px -32px no-repeat;background-color:rgb(255,69,0);" alt="reddit" src="data:image/gif;base64,R0lGODlhAQABAIAAAP//////zCH5BAEHAAAALAAAAAABAAEAAAICRAEAOw==" width="32" height="32" /></a>
-                  <a href="http://www.slideshare.net/AppStartup"><img style="background:url('images/sprites-social.png') -32px -32px no-repeat;background-color:rgb(0,153,153);" alt="slideshare" src="data:image/gif;base64,R0lGODlhAQABAIAAAP//////zCH5BAEHAAAALAAAAAABAAEAAAICRAEAOw==" width="32" height="32" /></a>
-                  <a href="http://steamcommunity.com/id/sadrunk/"><img style="background:url('images/sprites-social.png') -64px -32px no-repeat;background-color:rgb(0,0,0);" alt="steam" src="data:image/gif;base64,R0lGODlhAQABAIAAAP//////zCH5BAEHAAAALAAAAAABAAEAAAICRAEAOw==" width="32" height="32" /></a>
-                  <a href="http://twitter.com/flatlining"><img style="background:url('images/sprites-social.png') -96px -32px no-repeat;background-color:rgb(0,172,237);" alt="twitter" src="data:image/gif;base64,R0lGODlhAQABAIAAAP//////zCH5BAEHAAAALAAAAAABAAEAAAICRAEAOw==" width="32" height="32" /></a>
-                </p>
-              </div>
+      <div class="row hidden-xs">&nbsp</div>
+
+      <div class="row">
+        <div class="col-sm-3">
+          <p><img src="images/matias.jpg" width="200px" class="img-responsive picture hidden-xs" itemprop="image" /></p>
+        </div>
+        <div class="col-sm-9">
+          <div class="page-header"><h1><span itemprop="name"><span itemprop="givenName">Matias</span> <span itemprop="familyName">Schertel</span></span><small class="hidden-xs" itemprop="description">Ninja Developer & Design Thinking Mastermind</small></h1></div>
+          <div class="row">
+            <div class="col-sm-4">
+              <p>
+                <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Porto Alere</span>, <abbr title="Rio Grande do Sul" content="Rio Grande do Sul" itemprop="addressRegion">RS</abbr>, <span itemprop="addressCountry">Brazil</span></span><br />
+                <a href="mailto:matias@schertel.co" itemprop="email">matias@schertel.co</a><br />
+                <a href="tel:+555191729075" itemprop="telephone">+55-51-91729075</a>
+              </p>
+            </div>
+            <div class="col-sm-8">
+              <p class="text-right">
+                <link href="http://schertel.co/" rel="author" itemprop="url" />
+                <a href="http://www.appstartup.me/" rel="me" itemprop="url"><img style="background:url('images/sprites-social.png') 0px 0px no-repeat;background-color:rgb(200,20,60);" alt="appstartup" src="data:image/gif;base64,R0lGODlhAQABAIAAAP//////zCH5BAEHAAAALAAAAAABAAEAAAICRAEAOw==" width="32" height="32" /></a>
+                <a href="http://www.facebook.com/schertel" rel="me" itemprop="url"><img style="background:url('images/sprites-social.png') -32px 0px no-repeat;background-color:rgb(59,89,152);" alt="facebook" src="data:image/gif;base64,R0lGODlhAQABAIAAAP//////zCH5BAEHAAAALAAAAAABAAEAAAICRAEAOw==" width="32" height="32" /></a>
+                <a href="http://github.com/flatlining" rel="me" itemprop="url"><img style="background:url('images/sprites-social.png') -64px 0px no-repeat;background-color:rgb(65,131,196);" alt="github" src="data:image/gif;base64,R0lGODlhAQABAIAAAP//////zCH5BAEHAAAALAAAAAABAAEAAAICRAEAOw==" width="32" height="32" /></a>
+                <a href="http://plus.google.com/+MatiasSchertel" rel="me" itemprop="url"><img style="background:url('images/sprites-social.png') -96px 0px no-repeat;background-color:rgb(209,72,54);" alt="google plus" src="data:image/gif;base64,R0lGODlhAQABAIAAAP//////zCH5BAEHAAAALAAAAAABAAEAAAICRAEAOw==" width="32" height="32" /></a>
+                <a href="http://linkedin.com/in/mschertel" rel="me" itemprop="url"><img style="background:url('images/sprites-social.png') -128px 0px no-repeat;background-color:rgb(0,127,177);" alt="linkedin" src="data:image/gif;base64,R0lGODlhAQABAIAAAP//////zCH5BAEHAAAALAAAAAABAAEAAAICRAEAOw==" width="32" height="32" /></a>
+                <a href="http://www.reddit.com/u/flatlin3" rel="me" itemprop="url"><img style="background:url('images/sprites-social.png') 0px -32px no-repeat;background-color:rgb(255,69,0);" alt="reddit" src="data:image/gif;base64,R0lGODlhAQABAIAAAP//////zCH5BAEHAAAALAAAAAABAAEAAAICRAEAOw==" width="32" height="32" /></a>
+                <a href="http://www.slideshare.net/AppStartup" rel="me" itemprop="url"><img style="background:url('images/sprites-social.png') -32px -32px no-repeat;background-color:rgb(0,153,153);" alt="slideshare" src="data:image/gif;base64,R0lGODlhAQABAIAAAP//////zCH5BAEHAAAALAAAAAABAAEAAAICRAEAOw==" width="32" height="32" /></a>
+                <a href="http://steamcommunity.com/id/sadrunk/" rel="me" itemprop="url"><img style="background:url('images/sprites-social.png') -64px -32px no-repeat;background-color:rgb(0,0,0);" alt="steam" src="data:image/gif;base64,R0lGODlhAQABAIAAAP//////zCH5BAEHAAAALAAAAAABAAEAAAICRAEAOw==" width="32" height="32" /></a>
+                <a href="http://twitter.com/flatlining" rel="me" itemprop="url"><img style="background:url('images/sprites-social.png') -96px -32px no-repeat;background-color:rgb(0,172,237);" alt="twitter" src="data:image/gif;base64,R0lGODlhAQABAIAAAP//////zCH5BAEHAAAALAAAAAABAAEAAAICRAEAOw==" width="32" height="32" /></a>
+              </p>
             </div>
           </div>
         </div>
-
-        <div class="row hidden-xs">&nbsp</div>
-
-        <div class="row">
-          <div class="col-xs-12">
-            <div class="well well-sm">
-              <p>Ninja Developer, due his versatility, has worked professionally with different environments from Java/Oracle, going through C&#35; and currently working with ABAP systems. Easy learner and very curious, doesn&rsquo;t have problems in adapting to new programming languages.</p>
-              <p>Knows the value of knowledge and how to use it, not only to become a better person, but also to help improve the quality of work in the company. The best team is the one that grows together.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-xs-12">
-            <h3>Skills</h3>
-            <div class="row">
-              <div class="col-sm-4">
-                <h4>Code</h4>
-                <ul>
-                    <li>ABAP</li>
-                    <li>Java/C#</li>
-                    <li>Python</li>
-                    <li>PHP/Ruby</li>
-                </ul>
-              </div>
-              <div class="col-sm-4">
-                <h4>Methodologies</h4>
-                <ul>
-                    <li>Scrum</li>
-                    <li>Lean</li>
-                    <li>Test-driven development</li>
-                    <li>Design thinking</li>
-                </ul>
-              </div>
-              <div class="col-sm-4">
-                <h4>Others</h4>
-                <ul>
-                    <li>Oracle</li>
-                    <li>MySQL</li>
-                    <li><abbr title="High Performance Analytic Appliance">HANA</abbr></li>
-                    <li>Mobile</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-xs-12">
-            <h3>Experience</h3>
-            <div class="row">
-              <div class="col-sm-6">
-                <h4>Professional</h4>
-                <p>
-                <div><a href="http://www.sap.com/">SAP</a> (Sep 2010 - Present)</div>
-                <div>ABAP software developer, working in a <a href="http://www54.sap.com/industries/banking.html">SAP for Banking</a> localization team. Apply scrum and lean principles daily, participate in high level architecture definitions, tests and solution implementation. Also works in many ways to improve knowledge flow and transfer inside the team.</div>
-                </p>
-                <p>
-                <div><a href="http://www.mobiltec.com.br/">Mobiltec Business Mobility</a> (May 2010 - Sep 2010)</div>
-                <div>Intern developer at Java/Web and C# projects, worked in the implementation of Java/Web applications and Oracle PL/SQL database functions.</div>
-                </p>
-                <p>
-                <div><a href="http://www.novusautomation.com/">Novus Automation Inc.</a> (May 2008 - May 2010)</div>
-                <div>IT intern, worked in the maintenance of the website, and development and maintenance of the intranet, wiki and code versioning repositories.</div>
-                </p>
-                <p>
-                <div><a href="http://www.iq.ufrgs.br/ead/">Chemistry Institute / UFRGS</a> (May 2006 - Dec 2007)</div>
-                <div>Development and maintenance of website and digital material for Distance Learning in Organic
-                    Chemistry for the Chemistry Institute of UFRGS University.</div>
-                </p>
-              </div>
-              <div class="col-sm-6">
-                <h4>Educational</h4>
-                <p>
-                <div><a href="http://www.unisinos.br/">UNISINOS</a> - Information Systems (Jan 2008 - Ongoing)</div>
-                <div><a href="http://www.ufrgs.br/">UFRGS</a> - <a href="http://www.iq.ufrgs.br/">Chemistry</a> (Jan 2004 - Resigned at the end of 2007)</div>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
       </div>
+
+      <div class="row hidden-xs">&nbsp</div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="well well-sm">
+            <p>Ninja Developer, due his versatility, has worked professionally with different environments from Java/Oracle, going through C&#35; and currently working with ABAP systems. Easy learner and very curious, doesn&rsquo;t have problems in adapting to new programming languages.</p>
+            <p>Knows the value of knowledge and how to use it, not only to become a better person, but also to help improve the quality of work in the company. The best team is the one that grows together.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          <h3>Skills</h3>
+          <div class="row">
+            <div class="col-sm-4">
+              <h4>Code</h4>
+              <ul>
+                  <li>ABAP</li>
+                  <li>Java/C#</li>
+                  <li>Python</li>
+                  <li>PHP/Ruby</li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <h4>Methodologies</h4>
+              <ul>
+                  <li>Scrum</li>
+                  <li>Lean</li>
+                  <li>Test-driven development</li>
+                  <li>Design thinking</li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <h4>Others</h4>
+              <ul>
+                  <li>Oracle</li>
+                  <li>MySQL</li>
+                  <li><abbr title="High Performance Analytic Appliance">HANA</abbr></li>
+                  <li>Mobile</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          <h3>Experience</h3>
+          <div class="row">
+            <div class="col-sm-6">
+              <h4>Professional</h4>
+              <p>
+              <div><a href="http://www.sap.com/">SAP</a> (Sep 2010 - Present)</div>
+              <div>ABAP software developer, working in a <a href="http://www54.sap.com/industries/banking.html">SAP for Banking</a> localization team. Apply scrum and lean principles daily, participate in high level architecture definitions, tests and solution implementation. Also works in many ways to improve knowledge flow and transfer inside the team.</div>
+              </p>
+              <p>
+              <div><a href="http://www.mobiltec.com.br/">Mobiltec Business Mobility</a> (May 2010 - Sep 2010)</div>
+              <div>Intern developer at Java/Web and C# projects, worked in the implementation of Java/Web applications and Oracle PL/SQL database functions.</div>
+              </p>
+              <p>
+              <div><a href="http://www.novusautomation.com/">Novus Automation Inc.</a> (May 2008 - May 2010)</div>
+              <div>IT intern, worked in the maintenance of the website, and development and maintenance of the intranet, wiki and code versioning repositories.</div>
+              </p>
+              <p>
+              <div><a href="http://www.iq.ufrgs.br/ead/">Chemistry Institute / UFRGS</a> (May 2006 - Dec 2007)</div>
+              <div>Development and maintenance of website and digital material for Distance Learning in Organic
+                  Chemistry for the Chemistry Institute of UFRGS University.</div>
+              </p>
+            </div>
+            <div class="col-sm-6">
+              <h4>Educational</h4>
+              <p>
+              <div itemprop="alumniOf" itemscope itemtype="http://schema.org/CollegeOrUniversity"><a href="http://www.unisinos.br/" itemprop="url"><span itemprop="name">UNISINOS</span></a> - Information Systems (Jan 2008 - Ongoing)</div>
+              <div itemprop="alumniOf" itemscope itemtype="http://schema.org/CollegeOrUniversity"><a href="http://www.ufrgs.br/" itemprop="url"><span itemprop="name">UFRGS</span></a> - <a href="http://www.iq.ufrgs.br/">Chemistry</a> (Jan 2004 - Resigned at the end of 2007)</div>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
