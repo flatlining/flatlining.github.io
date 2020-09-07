@@ -1,0 +1,45 @@
+baseURL = "https://schertel.dev/"
+languageCode = "en-us"
+title = "Matias Schertel.dev"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
+
+defaultContentLanguage = "en"
+
+theme = "hallo"
+
+[Author]
+    name = "Matias Schertel"
+
+[params]
+    [params.colors]
+        background = "#000000"
+        foreground = "#FFFFFF"
+        hover = "#9B4F96"
+    [[params.links]]
+        icon = "linkedin-in"
+        title = "LinkedIn"
+        url = "https://linkedin.com/in/mschertel"
+    [[params.links]]
+        icon = "github"
+        title = "Github"
+        url = "https://github.com/flatlining/"
+    [[params.links]]
+        icon = "docker"
+        title = "Docker"
+        url = "https://hub.docker.com/u/flatlining"
+    [[params.links]]
+        icon = "instagram"
+        title = "Instagram"
+        url = "https://instagram.com/flatlining"
+    [[params.links]]
+        icon = "twitter"
+        title = "Twitter"
+        url = "https://twitter.com/flatlining"
+    [[params.links]]
+        icon = "facebook-f"
+        title = "Facebook"
+        url = "https://www.facebook.com/schertel"
+    [[params.links]]
+        icon = "steam"
+        title = "Steam"
+        url = "https://steamcommunity.com/id/sadrunk/"
