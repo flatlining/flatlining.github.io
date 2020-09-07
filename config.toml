@@ -15,6 +15,7 @@ theme = "hallo"
         background = "#000000"
         foreground = "#FFFFFF"
         hover = "#9B4F96"
+
     [[params.links]]
         icon = "linkedin-in"
         title = "LinkedIn"
@@ -43,3 +44,8 @@ theme = "hallo"
         icon = "steam"
         title = "Steam"
         url = "https://steamcommunity.com/id/sadrunk/"
+    [[params.links]]
+        iconset = "fas"
+        icon = "at"
+        title = "E-mail"
+        url = "mailto:matias@schertel.dev"
