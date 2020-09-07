@@ -1,8 +1,9 @@
 baseURL = "https://schertel.dev/"
 languageCode = "en-us"
-title = "Matias Schertel.dev"
-disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
 
+title = "Matias Schertel.dev"
+
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
 defaultContentLanguage = "en"
 
 theme = "hallo"
@@ -11,6 +12,8 @@ theme = "hallo"
     name = "Matias Schertel"
 
 [params]
+    description = "Personal landing page for Matias Schertel."
+
     [params.colors]
         background = "#000000"
         foreground = "#FFFFFF"
