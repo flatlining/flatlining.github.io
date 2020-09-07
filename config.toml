@@ -1,20 +1,26 @@
 baseURL = "https://schertel.dev/"
 languageCode = "en-us"
-title = "Matias Schertel.dev"
-disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
 
+title = "Matias Schertel.dev"
+
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
 defaultContentLanguage = "en"
 
 theme = "hallo"
+
+googleAnalytics = "UA-177415271-1"
 
 [Author]
     name = "Matias Schertel"
 
 [params]
+    description = "Personal landing page for Matias Schertel."
+
     [params.colors]
         background = "#000000"
         foreground = "#FFFFFF"
         hover = "#9B4F96"
+
     [[params.links]]
         icon = "linkedin-in"
         title = "LinkedIn"
@@ -36,6 +42,10 @@ theme = "hallo"
         title = "Twitter"
         url = "https://twitter.com/flatlining"
     [[params.links]]
+        icon = "mastodon"
+        title = "Mastodon"
+        url = "https://fosstodon.org/@flatline"
+    [[params.links]]
         icon = "facebook-f"
         title = "Facebook"
         url = "https://www.facebook.com/schertel"
@@ -43,3 +53,22 @@ theme = "hallo"
         icon = "steam"
         title = "Steam"
         url = "https://steamcommunity.com/id/sadrunk/"
+    [[params.links]]
+        icon = "keybase"
+        title = "Keybase"
+        url = "https://keybase.io/flatline"
+    [[params.links]]
+        iconset = "fas"
+        icon = "at"
+        title = "E-mail"
+        url = "mailto:matias@schertel.dev"
+    [[params.links]]
+        iconset = "fas"
+        icon = "blog"
+        title = "Blog"
+        url = "https://schertel.dev/blog/"
+    [[params.links]]
+        iconset = "fas"
+        icon = "file"
+        title = "Resume"
+        url = "https://schertel.dev/"
