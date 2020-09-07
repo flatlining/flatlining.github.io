@@ -1,6 +1,9 @@
 baseURL = "https://schertel.dev/"
 languageCode = "en-us"
 title = "Matias Schertel.dev"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
+
+defaultContentLanguage = "en"
 
 theme = "hallo"
 
