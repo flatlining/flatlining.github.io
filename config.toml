@@ -54,6 +54,10 @@ googleAnalytics = "UA-177415271-1"
         title = "Steam"
         url = "https://steamcommunity.com/id/sadrunk/"
     [[params.links]]
+        icon = "keybase"
+        title = "Keybase"
+        url = "https://keybase.io/flatline"
+    [[params.links]]
         iconset = "fas"
         icon = "at"
         title = "E-mail"
