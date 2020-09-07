@@ -42,6 +42,10 @@ googleAnalytics = "UA-177415271-1"
         title = "Twitter"
         url = "https://twitter.com/flatlining"
     [[params.links]]
+        icon = "mastodon"
+        title = "Mastodon"
+        url = "https://fosstodon.org/@flatline"
+    [[params.links]]
         icon = "facebook-f"
         title = "Facebook"
         url = "https://www.facebook.com/schertel"
