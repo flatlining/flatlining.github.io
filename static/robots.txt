@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /mschertel_at_gmail_com.asc
