@@ -23,3 +23,11 @@ $ hugo
 ```bash
 hugo server --disableFastRender
 ```
+
+## Publish
+
+```bash
+$ hugo --ignoreCache
+$ git checkout --orphan gh-pages
+$ git push --set-upstream origin gh-pages
+```
