@@ -5,14 +5,21 @@
 - [Emoji Favicons > Satellite](https://favicon.io/emoji-favicons/satellite/)
 - [Clean Architecture Quotes](https://www.goodreads.com/work/quotes/25319615-clean-architecture)
 
-## Serve
-
-```console
-hugo server --disableFastRender
-```
-
 ## Build
 
-```console
-hugo
+```bash
+$ git clone git@github.com:flatlining/flatlining.github.io.git
+# download theme
+$ git submodule init
+$ git submodule update
+# update theme
+$ git submodule update --remote --rebase
+# build
+$ hugo
+```
+
+## Serve
+
+```bash
+hugo server --disableFastRender
 ```
