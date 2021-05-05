@@ -72,3 +72,8 @@ googleAnalytics = "UA-177415271-1"
         icon = "file"
         title = "Resume"
         url = "https://schertel.dev/"
+    [[params.links]]
+        iconset = "fas"
+        icon = "key"
+        title = "PGP Public Key Block for mschertel@gmail.com"
+        url = "/key.asc"
