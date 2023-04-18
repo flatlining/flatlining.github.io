@@ -11,7 +11,7 @@ theme = "hallo"
 googleAnalytics = "UA-177415271-1"
 
 [Author]
-    name = "Matias Schertel ♾️🌈"
+    name = "Matias Schertel"
 
 [params]
     description = "Personal landing page for Matias Schertel."
