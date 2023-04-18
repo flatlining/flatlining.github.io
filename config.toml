@@ -11,7 +11,7 @@ theme = "hallo"
 googleAnalytics = "UA-177415271-1"
 
 [Author]
-    name = "Matias Schertel"
+    name = "Matias Schertel ♾️🌈"
 
 [params]
     description = "Personal landing page for Matias Schertel."
@@ -22,9 +22,13 @@ googleAnalytics = "UA-177415271-1"
         hover = "#9B4F96"
 
     [[params.links]]
-        icon = "linkedin-in"
-        title = "LinkedIn"
-        url = "https://linkedin.com/in/mschertel"
+        icon = "mastodon"
+        title = "Mastodon"
+        url = "https://fosstodon.org/@flatline"
+    [[params.links]]
+        icon = "twitter"
+        title = "Twitter"
+        url = "https://twitter.com/flatlining"
     [[params.links]]
         icon = "github"
         title = "Github"
@@ -37,18 +41,6 @@ googleAnalytics = "UA-177415271-1"
         icon = "instagram"
         title = "Instagram"
         url = "https://instagram.com/flatlining"
-    [[params.links]]
-        icon = "twitter"
-        title = "Twitter"
-        url = "https://twitter.com/flatlining"
-    [[params.links]]
-        icon = "mastodon"
-        title = "Mastodon"
-        url = "https://fosstodon.org/@flatline"
-    [[params.links]]
-        icon = "facebook-f"
-        title = "Facebook"
-        url = "https://www.facebook.com/schertel"
     [[params.links]]
         icon = "steam"
         title = "Steam"
