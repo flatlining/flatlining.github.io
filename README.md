@@ -29,5 +29,5 @@ hugo server --disableFastRender
 ```bash
 $ hugo --ignoreCache
 $ git checkout --orphan gh-pages
-$ git push --set-upstream origin gh-pages
+$ git push --force --set-upstream origin gh-pages
 ```
