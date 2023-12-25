@@ -50,13 +50,3 @@ googleAnalytics = "UA-177415271-1"
         icon = "at"
         title = "E-mail"
         url = "mailto:matias@schertel.dev"
-    [[params.links]]
-        iconset = "fas"
-        icon = "blog"
-        title = "Blog"
-        url = "https://schertel.dev/blog/"
-    [[params.links]]
-        iconset = "fas"
-        icon = "file"
-        title = "Resume"
-        url = "https://schertel.dev/"
