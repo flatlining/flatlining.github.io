@@ -8,12 +8,8 @@
 ## Build
 
 ```bash
+# clone
 $ git clone git@github.com:flatlining/flatlining.github.io.git
-# download theme
-$ git submodule init
-$ git submodule update
-# update theme
-$ git submodule update --remote --rebase
 # build
 $ hugo
 ```
