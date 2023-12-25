@@ -1,24 +1,20 @@
 # flatlining.github.io
 
 - [Hugo](https://gohugo.io/)
-- [Hugo Themes > Hallo](https://themes.gohugo.io/hallo-hugo/)
+- [Hugo Themes > Hallo](https://github.com/EmielH/hallo-hugo)
 - [Emoji Favicons > Satellite](https://favicon.io/emoji-favicons/satellite/)
 - [Clean Architecture Quotes](https://www.goodreads.com/work/quotes/25319615-clean-architecture)
 
 ## Build
 
 ```bash
-$ git clone git@github.com:flatlining/flatlining.github.io.git
-# download theme
-$ git submodule init
-$ git submodule update
-# update theme
-$ git submodule update --remote --rebase
+# clone
+git clone git@github.com:flatlining/flatlining.github.io.git
 # build
-$ hugo
+hugo
 ```
 
-## Serve
+## Server
 
 ```bash
 hugo server --disableFastRender
@@ -27,7 +23,11 @@ hugo server --disableFastRender
 ## Publish
 
 ```bash
-$ hugo --ignoreCache
-$ git checkout --orphan gh-pages
-$ git push --force --set-upstream origin gh-pages
+# remove old content
+rm -rf docs/*
+# build new content
+hugo --ignoreCache -d docs
+# commit new content
+git add docs/*
+git commit -m "publish: `date --rfc-3339=seconds`"
 ```
